@@ -4,3 +4,4 @@ puts "cbrt(x) returns the cube root of x."
 puts "Math.cbrt(9) = " + Math.cbrt(9).to_s
 c = Math.cbrt(9).class.to_s
 puts Math.cbrt(9).to_s + " is a " + c + "."
+print "\n"
