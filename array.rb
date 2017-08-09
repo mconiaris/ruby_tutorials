@@ -7,3 +7,4 @@ puts "An array can also be created by explicitly calling ::new with zero, one (t
 puts "ary = Array.new    #=> []"
 puts "Array.new(3)       #=> [nil, nil, nil]"
 puts "Array.new(3, true) #=> [true, true, true]"
+puts "\n"
