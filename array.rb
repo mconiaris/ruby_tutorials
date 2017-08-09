@@ -12,3 +12,6 @@ puts "To create an array with separate objects a block can be passed instead. Th
 puts "Array.new(4) { Hash.new }  #=> [{}, {}, {}, {}]"
 puts "Array.new(4) {|i| i.to_s } #=> [\"0\", \"1\", \"2\", \"3\"]"
 puts "\n"
+puts "This is also a quick way to build up multi-dimensional arrays:"
+puts "empty_table = Array.new(3) { Array.new(3) }"
+puts "#=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]"
