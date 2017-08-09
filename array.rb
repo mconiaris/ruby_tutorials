@@ -18,3 +18,6 @@ puts "#=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]"
 puts "\n"
 puts "An array can also be created by using the Array() method, provided by Kernel, which tries to call to_ary, then to_a on its argument."
 puts "Array({:a => \"a\", :b => \"b\"}) #=> [[:a, \"a\"], [:b, \"b\"]]"
+ary = Array({:a => "a", :b => "b"}) #=> [[:a, "a"], [:b, "b"]]
+print ary.to_s + "\n"
+puts ary[0]
