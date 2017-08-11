@@ -21,3 +21,4 @@ puts "Array({:a => \"a\", :b => \"b\"}) #=> [[:a, \"a\"], [:b, \"b\"]]"
 ary = Array({:a => "a", :b => "b"}) #=> [[:a, "a"], [:b, "b"]]
 print ary.to_s + "\n"
 puts ary[0]
+puts "\n"
