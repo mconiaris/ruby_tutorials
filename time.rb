@@ -26,3 +26,5 @@ puts "Once you have an instance of Time there is a multitude of things you can d
 t = Time.new(2017, 8, 22, 3, 16, 0, "+09:00")
 puts "Was that a monday? (t.monday?)"
 puts t.monday?
+puts "What year was that again? (t.year)"
+puts t.year
