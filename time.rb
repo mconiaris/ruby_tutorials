@@ -28,3 +28,5 @@ puts "Was that a monday? (t.monday?)"
 puts t.monday?
 puts "What year was that again? (t.year)"
 puts t.year
+puts "Was it daylight savings at the time? (t.dst?)"
+puts t.dst?
