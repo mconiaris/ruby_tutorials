@@ -4,4 +4,6 @@ puts "You can create a new instance of Time with ::new. This will use the curren
 t = Time.new
 puts "This is an eample of a time object being instantiated with \"Time.new\": " + t.to_s
 t = Time.new(2017)         #=> 2017-01-01 00:00:00 -0500
-puts "Time.new(2017) turns into: " + Time.new(2017).to_s
+puts "Time.new(2017) returns: " + Time.new(2017).to_s
+Time.new(2002, 8)     #=> 2017-8-01 00:00:00 -0500
+puts "Time.new(2002, 8) returns: " + Time.new(2002, 8).to_s
