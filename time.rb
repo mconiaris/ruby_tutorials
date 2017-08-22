@@ -11,7 +11,10 @@ Time.new(2017, 8, 22) #=> 2017-08-22 00:00:00 -0500
 puts "Time.new(2017, 8, 22) returns: " + Time.new(2017, 8, 22).to_s
 Time.new(2017, 8, 22, 2, 2, 2, "+02:00") #=> 2002-10-31 02:02:02 +0200
 puts "Time.new(2017, 8, 22, 2, 2, 2, \"+02:00\") returns: " + Time.new(2017, 8, 22, 2, 2, 2, "+02:00").to_s
+puts "\n"
 puts "You can also use gm, local and utc to infer GMT, local and UTC timezones instead of using the current system setting."
 puts "Time.new(2017, 8, 22, 2, 2, 2, \"+03:00\") returns: " + Time.new(2017, 8, 22, 2, 2, 2, "+03:00").to_s
 puts "Time.new(2017, 8, 22, 2, 2, 2) returns: " + Time.new(2017, 8, 22, 2, 2, 2).to_s
+puts "\n"
+puts "You can also create a new time using ::at which takes the number of seconds (or fraction of seconds) since the Unix Epoch."
 
