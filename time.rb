@@ -17,4 +17,5 @@ puts "Time.new(2017, 8, 22, 2, 2, 2, \"+03:00\") returns: " + Time.new(2017, 8, 
 puts "Time.new(2017, 8, 22, 2, 2, 2) returns: " + Time.new(2017, 8, 22, 2, 2, 2).to_s
 puts "\n"
 puts "You can also create a new time using ::at which takes the number of seconds (or fraction of seconds) since the Unix Epoch."
-
+t = Time.at(628232400) #=> 1989-11-28 00:00:00 -0500
+puts "Time.at(628232400) returns: " + t.to_s
