@@ -30,3 +30,5 @@ puts "What year was that again? (t.year)"
 puts t.year
 puts "Was it daylight savings at the time? (t.dst?)"
 puts t.dst?
+puts "What’s the day a year later? [t + (60*60*24*365)]"
+puts t + (60*60*24*365)
