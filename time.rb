@@ -12,3 +12,4 @@ puts "Time.new(2017, 8, 22) returns: " + Time.new(2017, 8, 22).to_s
 Time.new(2017, 8, 22, 2, 2, 2, "+02:00") #=> 2002-10-31 02:02:02 +0200
 puts "Time.new(2017, 8, 22, 2, 2, 2, \"+02:00\") returns: " + Time.new(2017, 8, 22, 2, 2, 2, "+02:00").to_s
 puts "You can also use gm, local and utc to infer GMT, local and UTC timezones instead of using the current system setting."
+puts "Time.new(2017, 8, 22, 2, 2, 2, \"+03:00\") returns: " + Time.new(2017, 8, 22, 2, 2, 2, "+03:00").to_s
