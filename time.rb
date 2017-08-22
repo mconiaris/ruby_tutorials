@@ -24,5 +24,5 @@ puts "\n"
 puts "Working with an instance of Time"
 puts "Once you have an instance of Time there is a multitude of things you can do with it. Below are some examples. For all of the following examples, we will work on the assumption that you have done the following: t = Time.new(2017, 8, 22, 3, 16, 0, \"+09:00\")"
 t = Time.new(2017, 8, 22, 3, 16, 0, "+09:00")
-puts "Was that a monday?\nt.monday?"
+puts "Was that a monday? (t.monday?)"
 puts t.monday?
