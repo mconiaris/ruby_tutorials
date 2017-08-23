@@ -51,3 +51,9 @@ puts "\n"
 puts "at(time) → time"
 puts "Creates a new Time object with the value given by time, the given number of seconds_with_frac, or seconds and microseconds_with_frac since the Epoch. seconds_with_frac and microseconds_with_frac can be an Integer, Float, Rational, or other Numeric. non-portable feature allows the offset to be negative on some systems. If a numeric argument is given, the result is in local time."
 puts "Time.at(0) returns: " + Time.at(0).to_s
+puts "Time.at(Time.at(0)) returns: " + Time.at(Time.at(0)).to_s
+puts "Time.at(946702800) returns: " + Time.at(946702800).to_s
+puts "Time.at(-284061600) returns: " + Time.at(-284061600).to_s
+puts "\n"
+puts "at(seconds_with_frac) → time"
+puts "Time.at(946684800.2).usec returns: " + Time.at(946684800.2).usec.to_s
