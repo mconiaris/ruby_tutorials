@@ -45,3 +45,9 @@ puts "t1 == t1 is " + (t1 == t1).to_s #=> true
 puts "t1 <  t2 is " + (t1 <  t2).to_s #=> true
 puts "t1 >  t2 is " + (t1 >  t2).to_s #=> false
 puts "Time.new(2010,10,31).between?(t1, t2) is " + Time.new(2010,10,31).between?(t1, t2).to_s #=> true
+puts "\n"
+puts "Public Class Methods"
+puts "\n"
+puts "at(time) → time"
+puts "Creates a new Time object with the value given by time, the given number of seconds_with_frac, or seconds and microseconds_with_frac since the Epoch. seconds_with_frac and microseconds_with_frac can be an Integer, Float, Rational, or other Numeric. non-portable feature allows the offset to be negative on some systems. If a numeric argument is given, the result is in local time."
+puts "Time.at(0) returns: " + Time.at(0).to_s
