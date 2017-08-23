@@ -34,3 +34,4 @@ puts "What’s the day a year later? [t + (60*60*24*365)]"
 puts t + (60*60*24*365)
 puts "How many seconds was that since the Unix Epoch? (t.to_i)"
 puts t.to_i
+puts "\n"
