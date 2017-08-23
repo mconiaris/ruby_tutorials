@@ -57,3 +57,6 @@ puts "Time.at(-284061600) returns: " + Time.at(-284061600).to_s
 puts "\n"
 puts "at(seconds_with_frac) → time"
 puts "Time.at(946684800.2).usec returns: " + Time.at(946684800.2).usec.to_s
+puts "\n"
+puts "at(seconds, microseconds_with_frac) → time"
+puts "Time.at(946684800, 123456.789).nsec returns: " + Time.at(946684800, 123456.789).nsec.to_s
