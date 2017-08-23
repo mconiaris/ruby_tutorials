@@ -36,3 +36,12 @@ puts "How many seconds was that since the Unix Epoch? (t.to_i)"
 puts t.to_i
 puts "\n"
 puts "You can also do standard functions like compare two times."
+t1 = Time.new(2010)
+puts "t1 = Time.new(2010)"
+t2 = Time.new(2011)
+puts "t2 = Time.new(2011)"
+puts "t1 == t2 is " + (t1 == t2).to_s #=> false
+puts "t1 == t1 is " + (t1 == t1).to_s #=> true
+puts "t1 <  t2 is " + (t1 <  t2).to_s #=> true
+puts "t1 >  t2 is " + (t1 >  t2).to_s #=> false
+puts "Time.new(2010,10,31).between?(t1, t2) is " + Time.new(2010,10,31).between?(t1, t2).to_s #=> true
