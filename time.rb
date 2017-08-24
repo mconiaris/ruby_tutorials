@@ -66,3 +66,4 @@ puts "Creates a Time object based on given values, interpreted as UTC (GMT). The
 puts "Time.gm(2017) returns: " + Time.gm(2017).to_s
 puts "Time.gm(2017, 8) returns: " + Time.gm(2017, 8).to_s
 puts "Time.gm(2017, 8, 24) returns: " + Time.gm(2017, 8, 24).to_s
+puts "Time.gm(2017, 8, 24, 11) " + Time.gm(2017, 8, 24, 11).to_s
