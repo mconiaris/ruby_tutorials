@@ -64,10 +64,17 @@ puts "\n"
 puts "gm(year) → time"
 puts "Creates a Time object based on given values, interpreted as UTC (GMT). The year must be specified. Other values default to the minimum value for that field (and may be nil or omitted). Months may be specified by numbers from 1 to 12, or by the three-letter English month names. Hours are specified on a 24-hour clock (0..23). Raises an ArgumentError if any values are out of range. Will also accept ten arguments in the order output by #to_a."
 puts "Time.gm(2017) returns: " + Time.gm(2017).to_s
+puts "gm(year, month) → time"
 puts "Time.gm(2017, 8) returns: " + Time.gm(2017, 8).to_s
+puts "gm(year, month, day) → time"
 puts "Time.gm(2017, 8, 24) returns: " + Time.gm(2017, 8, 24).to_s
+puts "gm(year, month, day, hour) → time"
 puts "Time.gm(2017, 8, 24, 11) " + Time.gm(2017, 8, 24, 11).to_s
+puts "gm(year, month, day, hour, min) → time"
 puts "Time.gm(2017, 8, 24, 11, 3) returns: " + Time.gm(2017, 8, 24, 11, 3).to_s
 puts "sec_with_frac and usec_with_frac can have a fractional part."
+puts "gm(year, month, day, hour, min, sec_with_frac) → time"
 puts "Time.gm(2017, 8, 24, 11, 6, 22.3) returns: " + Time.gm(2017, 8, 24, 11, 6, 22.3).to_s
+
+puts "gm(sec, min, hour, day, month, year, dummy, dummy, dummy, dummy) → time"
 puts "Time.gm(35, 12, 11, 24, 8, 2017, dummy, dummy, dummy, dummy) returns: " + Time.gm(35, 12, 11, 24, 8, 2017, nil, nil, nil, nil).to_s
