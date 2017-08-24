@@ -60,3 +60,6 @@ puts "Time.at(946684800.2).usec returns: " + Time.at(946684800.2).usec.to_s
 puts "\n"
 puts "at(seconds, microseconds_with_frac) → time"
 puts "Time.at(946684800, 123456.789).nsec returns: " + Time.at(946684800, 123456.789).nsec.to_s
+puts "\n"
+puts "gm(year) → time"
+puts "Creates a Time object based on given values, interpreted as UTC (GMT). The year must be specified. Other values default to the minimum value for that field (and may be nil or omitted). Months may be specified by numbers from 1 to 12, or by the three-letter English month names. Hours are specified on a 24-hour clock (0..23). Raises an ArgumentError if any values are out of range. Will also accept ten arguments in the order output by #to_a."
