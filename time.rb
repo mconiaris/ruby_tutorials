@@ -68,3 +68,5 @@ puts "Time.gm(2017, 8) returns: " + Time.gm(2017, 8).to_s
 puts "Time.gm(2017, 8, 24) returns: " + Time.gm(2017, 8, 24).to_s
 puts "Time.gm(2017, 8, 24, 11) " + Time.gm(2017, 8, 24, 11).to_s
 puts "Time.gm(2017, 8, 24, 11, 3) returns: " + Time.gm(2017, 8, 24, 11, 3).to_s
+puts "sec_with_frac and usec_with_frac can have a fractional part."
+puts "Time.gm(2017, 8, 24, 11, 6, 22.3) returns: " + Time.gm(2017, 8, 24, 11, 6, 22.3).to_s
