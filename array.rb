@@ -29,3 +29,4 @@ puts "Elements in an array can be retrieved using the #[] " +
 	"with -1 being the last element."
 arr = [1, 2, 3, 4, 5, 6]
 print "arr" + arr.to_s + "\n"
+puts "arr[2] returns: " + arr[2].to_s
