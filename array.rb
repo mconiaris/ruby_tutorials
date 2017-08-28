@@ -33,3 +33,4 @@ puts "arr[2] returns: " + arr[2].to_s
 puts "arr[-3] returns: " + arr[-3].to_s
 puts "arr[2, 3] returns: " + arr[2, 3].to_s
 puts "arr[1..4] returns: " + arr[1..4].to_s
+puts "arr[1..-3] returns: " + arr[1..-3].to_s
