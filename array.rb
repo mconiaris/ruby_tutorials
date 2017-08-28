@@ -30,3 +30,4 @@ puts "Elements in an array can be retrieved using the #[] " +
 arr = [1, 2, 3, 4, 5, 6]
 print "arr" + arr.to_s + "\n"
 puts "arr[2] returns: " + arr[2].to_s
+puts "arr[-3] returns: " + arr[-3].to_s
