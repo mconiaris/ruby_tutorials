@@ -27,3 +27,5 @@ puts "Elements in an array can be retrieved using the #[] " +
 	"numeric index), a pair of arguments (start and length) " +
 	"or a range. Negative indices start counting from the end, " +
 	"with -1 being the last element."
+arr = [1, 2, 3, 4, 5, 6]
+print "arr" + arr.to_s + "\n"
