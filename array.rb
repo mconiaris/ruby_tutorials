@@ -34,3 +34,5 @@ puts "arr[-3] returns: " + arr[-3].to_s
 puts "arr[2, 3] returns: " + arr[2, 3].to_s
 puts "arr[1..4] returns: " + arr[1..4].to_s
 puts "arr[1..-3] returns: " + arr[1..-3].to_s
+puts "Another way to access a particular array element is by using the at method"
+puts "arr.at(0) returns: " + arr.at(0).to_s
