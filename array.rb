@@ -37,4 +37,5 @@ puts "arr[1..-3] returns: " + arr[1..-3].to_s
 puts "Another way to access a particular array element is by using the at method"
 puts "arr.at(0) returns: " + arr.at(0).to_s
 puts "To raise an error for indices outside of the array bounds or else to provide a default value when that happens, you can use fetch."
+puts "arr.fetch(100, \"oops\") returns: " + arr.fetch(100, "oops")
 puts "\n"
