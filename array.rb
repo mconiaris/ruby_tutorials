@@ -41,4 +41,3 @@ puts "arr.fetch(100, \"oops\") returns: " + arr.fetch(100, "oops")
 puts "The special methods first and last will return the first and last elements of an array, respectively."
 puts "arr.first returns: " + arr.first.to_s
 puts "arr.last returns: " + arr.last.to_s
-puts "\n"
