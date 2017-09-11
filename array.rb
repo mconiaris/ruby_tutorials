@@ -43,3 +43,5 @@ puts "arr.first returns: " + arr.first.to_s
 puts "arr.last returns: " + arr.last.to_s
 puts "To return the first n elements of an array, use take"
 puts "arr.take(3) returns: " + arr.take(3).to_s
+puts "drop does the opposite of take, by returning the elements after n elements have been dropped:"
+puts "arr.drop(3) returns: " + arr.drop(3).to_s
