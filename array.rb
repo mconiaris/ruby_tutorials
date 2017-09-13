@@ -51,3 +51,4 @@ puts "Arrays keep track of their own length at all times. To query an array abou
 puts "browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']"
 browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
 puts "browsers.length returns: " + browsers.length.to_s
+puts "browsers.count returns: " + browsers.count.to_s
