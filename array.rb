@@ -47,3 +47,7 @@ puts "drop does the opposite of take, by returning the elements after n elements
 puts "arr.drop(3) returns: " + arr.drop(3).to_s
 puts "\n"
 puts "Obtaining Information about an Array"
+puts "Arrays keep track of their own length at all times. To query an array about the number of elements it contains, use length, count or size."
+puts "browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']"
+browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
+puts "browsers.length returns: " + browsers.length.to_s
