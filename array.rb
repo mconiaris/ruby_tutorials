@@ -52,3 +52,5 @@ puts "browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']"
 browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
 puts "browsers.length returns: " + browsers.length.to_s
 puts "browsers.count returns: " + browsers.count.to_s
+puts "To check whether an array contains any elements at all"
+puts "browsers.empty? returns: " + browsers.empty?.to_s
