@@ -54,3 +54,6 @@ puts "browsers.length returns: " + browsers.length.to_s
 puts "browsers.count returns: " + browsers.count.to_s
 puts "To check whether an array contains any elements at all"
 puts "browsers.empty? returns: " + browsers.empty?.to_s
+puts "To check whether a particular item is included in the array"
+puts "browsers.include?('Konqueror') returns: " + browsers.include?('Konqueror').to_s
+puts "browsers.include?('Firefox') returns: " + browsers.include?('Firefox').to_s
