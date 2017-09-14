@@ -57,3 +57,4 @@ puts "browsers.empty? returns: " + browsers.empty?.to_s
 puts "To check whether a particular item is included in the array"
 puts "browsers.include?('Konqueror') returns: " + browsers.include?('Konqueror').to_s
 puts "browsers.include?('Firefox') returns: " + browsers.include?('Firefox').to_s
+puts "\n"
