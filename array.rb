@@ -58,3 +58,4 @@ puts "To check whether a particular item is included in the array"
 puts "browsers.include?('Konqueror') returns: " + browsers.include?('Konqueror').to_s
 puts "browsers.include?('Firefox') returns: " + browsers.include?('Firefox').to_s
 puts "\n"
+puts "Adding Items to Arrays"
