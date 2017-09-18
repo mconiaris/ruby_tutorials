@@ -61,3 +61,6 @@ puts "\n"
 puts "Adding Items to Arrays"
 arr = [1, 2, 3, 4]
 puts "arr = [1, 2, 3, 4]"
+arr.push(5)
+puts "arr.push(5) adds an item to the array."
+puts "arr.last now returns: " + arr.last.to_s
