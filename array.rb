@@ -59,3 +59,5 @@ puts "browsers.include?('Konqueror') returns: " + browsers.include?('Konqueror')
 puts "browsers.include?('Firefox') returns: " + browsers.include?('Firefox').to_s
 puts "\n"
 puts "Adding Items to Arrays"
+arr = [1, 2, 3, 4]
+puts "arr = [1, 2, 3, 4]"
