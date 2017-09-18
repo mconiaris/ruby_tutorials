@@ -68,3 +68,7 @@ puts "unshift will add a new item to the beginning of an array."
 arr.unshift(0)
 puts "arr.unshift(0) adds 0 to the beginning of the array."
 puts "arr.first now returns: " + arr.first.to_s
+puts "With insert you can add a new element to an array at any position."
+arr.insert(3, 'apple')
+puts "arr.insert(3, 'apple')"
+puts "arr[3] now returns: " + arr[3]
