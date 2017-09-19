@@ -76,3 +76,4 @@ puts "Using the insert method, you can also insert multiple values at once:"
 arr.insert(3, 'orange', 'pear', 'grapefruit')
 puts "arr.insert(3, 'orange', 'pear', 'grapefruit')"
 print "arr now includes: " + arr.to_s + "\n"
+puts "\n"
