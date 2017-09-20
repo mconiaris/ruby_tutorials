@@ -79,3 +79,6 @@ print "arr now includes: " + arr.to_s + "\n"
 puts "\n"
 arr =  [1, 2, 3, 4, 5, 6]
 print "Created a new array that includes: " + arr.to_s + "\n"
+puts "The method pop removes the last element in an array and returns it:"
+arr.pop
+print "arr.pop returns: " + arr.to_s + "\n"
