@@ -88,3 +88,6 @@ print "arr.shift returns: " + arr.to_s + "\n"
 puts "To delete an element at a particular index:"
 arr.delete_at(2)
 print "arr.delete_at(2) returns: " + arr.to_s + "\n"
+puts "To delete a particular element anywhere in an array, use delete:"
+arr.delete(2)
+print "arr.delete(2) returns: " + arr.to_s + "\n"
