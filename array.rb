@@ -77,3 +77,5 @@ arr.insert(3, 'orange', 'pear', 'grapefruit')
 puts "arr.insert(3, 'orange', 'pear', 'grapefruit')"
 print "arr now includes: " + arr.to_s + "\n"
 puts "\n"
+arr =  [1, 2, 3, 4, 5, 6]
+print "Created a new array that includes: " + arr.to_s + "\n"
