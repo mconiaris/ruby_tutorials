@@ -98,3 +98,11 @@ arr.compact
 print "arr.compact returns: " + arr.to_s + "\n"
 arr.compact!
 print "arr.compact! returns: " + arr.to_s + "\n"
+puts "Another common need is to remove duplicate elements from an array."
+puts "It has the non-destructive uniq, and destructive method uniq!"
+arr = [2, 5, 6, 556, 6, 6, 8, 9, 0, 123, 556]
+print "Creating a new array that includes: " + arr.to_s + "\n"
+arr.uniq
+print "arr.uniq returns: " + arr.to_s + "\n"
+arr.uniq!
+print "arr.uniq! returns: " + arr.uniq!.to_s + "\n"
