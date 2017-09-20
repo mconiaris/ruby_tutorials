@@ -82,3 +82,9 @@ print "Created a new array that includes: " + arr.to_s + "\n"
 puts "The method pop removes the last element in an array and returns it:"
 arr.pop
 print "arr.pop returns: " + arr.to_s + "\n"
+puts "To retrieve and at the same time remove the first item, use shift:"
+arr.shift
+print "arr.shift returns: " + arr.to_s + "\n"
+puts "To delete an element at a particular index:"
+arr.delete_at(2)
+print "arr.delete_at(2) returns: " + arr.to_s + "\n"
