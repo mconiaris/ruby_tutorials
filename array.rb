@@ -91,3 +91,6 @@ print "arr.delete_at(2) returns: " + arr.to_s + "\n"
 puts "To delete a particular element anywhere in an array, use delete:"
 arr.delete(2)
 print "arr.delete(2) returns: " + arr.to_s + "\n"
+puts "A useful method if you need to remove nil values from an array is compact:"
+arr = ['foo', 0, nil, 'bar', 7, 'baz', nil]
+print "Creating a new array that includes: " + arr.to_s + "\n"
