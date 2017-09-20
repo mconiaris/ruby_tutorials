@@ -94,3 +94,7 @@ print "arr.delete(2) returns: " + arr.to_s + "\n"
 puts "A useful method if you need to remove nil values from an array is compact:"
 arr = ['foo', 0, nil, 'bar', 7, 'baz', nil]
 print "Creating a new array that includes: " + arr.to_s + "\n"
+arr.compact
+print "arr.compact returns: " + arr.to_s + "\n"
+arr.compact!
+print "arr.compact! returns: " + arr.to_s + "\n"
