@@ -107,3 +107,4 @@ print "arr.uniq returns: " + arr.to_s + "\n"
 arr.uniq!
 print "arr.uniq! returns: " + arr.uniq!.to_s + "\n"
 puts "\n"
+puts "Iterating over Arrays"
