@@ -12,3 +12,6 @@ I'm going to try to put in
 more than one line of
 comments here and test it. 
 =end
+
+a, b, c, d = 5, 10, 15, 20
+puts b
