@@ -15,3 +15,15 @@ comments here and test it.
 
 a, b, c, d = 5, 10, 15, 20
 puts b
+
+
+def display_strings(*args)
+	args.each { |string|
+		puts string
+	}
+end
+
+puts "\nDisplay Strings Method:"
+display_strings("Mike")
+display_strings("Mike, Courtney")
+display_strings(6, "Mike")
